@@ -9,6 +9,8 @@ public class Odev_Cozumleri {
 
           integer bir değişken oluşturup içine yukarıdaki metin olarak verilen ifadeyi atayıp ekrana yazdırınız.
           Sonrasında bu değeri tekrar metine çevirip ekrana yazdırınız.
+          
+        */
 
            String stringSayi="150";
            int degisken = Integer.parseInt(stringSayi);
@@ -21,12 +23,13 @@ public class Odev_Cozumleri {
             stringSayi = String.valueOf(degisken);
              System.out.println("String Sayinin son degeri : " + stringSayi);
 
-         */
+         
         /*2 Aşağıdaki ifadeleri hesaplayıp ekrana bastırın ve sonuçları yorumlayın.
 
                      int sayi 1 = 5 / 3 ;
                      float sayi2 = 5f / 3f ;
                      double sayi3 = 5d / 3d;
+         */
 
               int sayi1 = 5/3;      // int ondalık kısmı almaz sadece tam kısmı saklıyor.
               System.out.println(sayi1);
@@ -35,20 +38,20 @@ public class Odev_Cozumleri {
               double sayi3 = 5d/3d;    // double virgülden sonra 16 karakter saklıyor. 16. karakteri yuvarlayarak hesaplıyor.
               System.out.println(sayi3);
 
-         */
+         
 
         /*3 Aşağıdaki ifadelerin sonucu nedir ve sonucu yorumlayın.
 
                 System.out.println(1.0 - 0.1 - 0.1 - 0.1 - 0.1 - 0.1);
                 System.out.println(1.0 - 0.9);
+        */
 
         System.out.println(1.0 - 0.1 - 0.1 - 0.1 - 0.1 - 0.1);  // 0.5 degerini görmeliyiz.
         System.out.println(1.0 - 0.9);    // 0.1 degerini görmeliyiz.
 
-         */
+         
 
-        /*
-         Aşağıdaki ifadelerin sonuçlarını ekrana yazdırın ve sonucu yorumlayın.
+        /*4 Aşağıdaki ifadelerin sonuçlarını ekrana yazdırın ve sonucu yorumlayın.
 
            int s1 = 1;                                    int s1 = 1;
            int s2 = 2;                                    int s2 = 2;
