@@ -6,7 +6,7 @@ public class BilBakalim {
 
     public static void main(String[] args) {
 
-        int sayi = (int)(Math.random() * 100 + 1);
+        int sayi = (int)(Math.random() * 99 + 1);
 
         Scanner tahmin = new Scanner(System.in);
 
