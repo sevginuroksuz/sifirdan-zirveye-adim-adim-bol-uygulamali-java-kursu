@@ -28,9 +28,9 @@ public class ForDongusuKullanimi {
 
 
         // ic ice for dongusu
-        for( int i=0, j=0; (i+j) < 10; i++, j++) ;
+        for( int i=0, j=0; (i+j) < 10; i++, j++) 
         {
-            for( int i=0, j=0; (i+j) < 10; i++, j++) ;
+            for( int i=0, j=0; (i+j) < 10; i++, j++) 
             {
                 System.out.println("Sevgi");
             }
